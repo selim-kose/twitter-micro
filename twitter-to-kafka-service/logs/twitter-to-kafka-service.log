@@ -9,3 +9,11 @@
 2025-05-26 22:42:07 [pool-2-thread-1] INFO  s.s.t.l.TwitterKafkaStatusListener - Twitter status with text magna posuere libero consectetuer ultricies Kafka ultricies magna dolor lectus
 2025-05-26 22:42:17 [pool-2-thread-1] INFO  s.s.t.l.TwitterKafkaStatusListener - Twitter status with text massa Fusce magna libero Java congue ultricies libero
 2025-05-26 22:42:27 [pool-2-thread-1] INFO  s.s.t.l.TwitterKafkaStatusListener - Twitter status with text purus Lorem sit Spring ipsum Maecenas
+2025-05-26 23:05:51 [main] INFO  s.s.t.TwitterKafkaServiceApplication - Starting TwitterKafkaServiceApplication using Java 17.0.14 with PID 28948 (C:\Users\selim\ws\spring-boot\twitter-micro\twitter-kafka-service\target\classes started by selim in C:\Users\selim\ws\spring-boot\twitter-micro)
+2025-05-26 23:05:51 [main] INFO  s.s.t.TwitterKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-26 23:05:51 [main] INFO  s.s.t.TwitterKafkaServiceApplication - Started TwitterKafkaServiceApplication in 0.697 seconds (process running for 1.203)
+2025-05-26 23:05:51 [main] INFO  s.s.t.TwitterKafkaServiceApplication - Twitter Kafka Service is starting...
+2025-05-26 23:05:51 [main] INFO  s.s.t.TwitterKafkaServiceApplication - [Java, Microservices, Kafka, Spring, Elasticsearch]
+2025-05-26 23:05:51 [main] INFO  s.s.t.TwitterKafkaServiceApplication - Welcome to the Twitter Kafka Service!
+2025-05-26 23:05:51 [main] INFO  s.s.t.r.impl.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Kafka, Spring, Elasticsearch]
+2025-05-26 23:05:51 [pool-2-thread-1] INFO  s.s.t.l.TwitterKafkaStatusListener - Twitter status with text ultricies consectetuer purus Spring Lorem Lorem
