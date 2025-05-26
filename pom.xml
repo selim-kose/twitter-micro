@@ -17,6 +17,7 @@
 
     <modules>
         <module>twitter-kafka-service</module>
+        <module>app-config-data</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -31,6 +32,11 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>se.selimkose</groupId>
+                <artifactId>app-config-data</artifactId>
+                <version>${project.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter</artifactId>

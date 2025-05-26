@@ -5,11 +5,12 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
-import se.selimkose.twitterKafkaService.config.TwitterKafkaServiceConfig;
+import se.selimkose.config.TwitterKafkaServiceConfig;
 import se.selimkose.twitterKafkaService.runner.StreamRunner;
 
 
 @SpringBootApplication
+@ComponentScan(basePackages = "se.selimkose") // Ensure that beans are found in other packages
 public class TwitterKafkaServiceApplication implements CommandLineRunner {
     private static final Logger logger = LoggerFactory.getLogger(TwitterKafkaServiceApplication.class);
     private final TwitterKafkaServiceConfig twitterKafkaServiceConfig;

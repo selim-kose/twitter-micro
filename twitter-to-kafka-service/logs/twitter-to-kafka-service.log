@@ -1,81 +1,11 @@
-2025-05-23 16:56:09 [main] INFO  s.s.t.TwitterKafkaServiceApplication - Starting TwitterKafkaServiceApplication using Java 17.0.14 with PID 36588 (C:\Users\selim\ws\spring-boot\twitter-micro\twitter-kafka-service\target\classes started by selim in C:\Users\selim\ws\spring-boot\twitter-micro)
-2025-05-23 16:56:09 [main] INFO  s.s.t.TwitterKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
-2025-05-23 16:56:09 [main] INFO  s.s.t.TwitterKafkaServiceApplication - Started TwitterKafkaServiceApplication in 0.606 seconds (process running for 1.101)
-2025-05-23 16:56:09 [main] INFO  s.s.t.TwitterKafkaServiceApplication - Twitter Kafka Service is starting...
-2025-05-23 16:56:09 [main] INFO  s.s.t.TwitterKafkaServiceApplication - [Java, Microservices, Kafka, Spring, Elasticsearch]
-2025-05-23 16:56:09 [main] INFO  s.s.t.TwitterKafkaServiceApplication - Welcome to the Twitter Kafka Service!
-2025-05-23 16:59:58 [main] INFO  s.s.t.TwitterKafkaServiceApplication - Starting TwitterKafkaServiceApplication using Java 17.0.14 with PID 24828 (C:\Users\selim\ws\spring-boot\twitter-micro\twitter-kafka-service\target\classes started by selim in C:\Users\selim\ws\spring-boot\twitter-micro)
-2025-05-23 16:59:58 [main] INFO  s.s.t.TwitterKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
-2025-05-23 16:59:58 [main] INFO  s.s.t.TwitterKafkaServiceApplication - Started TwitterKafkaServiceApplication in 0.592 seconds (process running for 1.052)
-2025-05-23 16:59:58 [main] INFO  s.s.t.TwitterKafkaServiceApplication - Twitter Kafka Service is starting...
-2025-05-23 16:59:58 [main] INFO  s.s.t.TwitterKafkaServiceApplication - [Java, Microservices, Kafka, Spring, Elasticsearch]
-2025-05-23 16:59:58 [main] INFO  s.s.t.TwitterKafkaServiceApplication - Welcome to the Twitter Kafka Service!
-2025-05-23 16:59:58 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
-2025-05-23 16:59:58 [main] INFO  s.s.t.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Microservices, Kafka, Spring, Elasticsearch]
-2025-05-23 16:59:59 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
-2025-05-23 16:59:59 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 250 milliseconds
-2025-05-23 16:59:59 [Twitter Stream consumer /  [1][Waiting for 250 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
-2025-05-23 16:59:59 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
-2025-05-23 16:59:59 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 500 milliseconds
-2025-05-23 17:00:00 [Twitter Stream consumer /  [1][Waiting for 500 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
-2025-05-23 17:00:00 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
-2025-05-23 17:00:00 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 1000 milliseconds
-2025-05-23 17:00:01 [Twitter Stream consumer /  [1][Waiting for 1000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
-2025-05-23 17:00:01 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
-2025-05-23 17:00:01 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 2000 milliseconds
-2025-05-23 17:00:03 [Twitter Stream consumer /  [1][Waiting for 2000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
-2025-05-23 17:00:03 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
-2025-05-23 17:00:03 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 4000 milliseconds
-2025-05-23 17:00:07 [Twitter Stream consumer /  [1][Waiting for 4000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
-2025-05-23 17:00:08 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
-2025-05-23 17:00:08 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 8000 milliseconds
-2025-05-23 17:00:10 [SpringApplicationShutdownHook] INFO  s.s.t.r.i.TwitterKafkaStreamRunner - Closing twitter stream!
-2025-05-23 17:01:22 [main] INFO  s.s.t.TwitterKafkaServiceApplication - Starting TwitterKafkaServiceApplication using Java 17.0.14 with PID 40236 (C:\Users\selim\ws\spring-boot\twitter-micro\twitter-kafka-service\target\classes started by selim in C:\Users\selim\ws\spring-boot\twitter-micro)
-2025-05-23 17:01:22 [main] INFO  s.s.t.TwitterKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
-2025-05-23 17:01:22 [main] INFO  s.s.t.TwitterKafkaServiceApplication - Started TwitterKafkaServiceApplication in 0.602 seconds (process running for 1.078)
-2025-05-23 17:01:22 [main] INFO  s.s.t.TwitterKafkaServiceApplication - Twitter Kafka Service is starting...
-2025-05-23 17:01:22 [main] INFO  s.s.t.TwitterKafkaServiceApplication - [Java, Microservices, Kafka, Spring, Elasticsearch]
-2025-05-23 17:01:22 [main] INFO  s.s.t.TwitterKafkaServiceApplication - Welcome to the Twitter Kafka Service!
-2025-05-23 17:01:22 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
-2025-05-23 17:01:22 [main] INFO  s.s.t.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Microservices, Kafka, Spring, Elasticsearch]
-2025-05-23 17:01:22 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
-2025-05-23 17:01:22 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 250 milliseconds
-2025-05-23 17:01:23 [Twitter Stream consumer /  [1][Waiting for 250 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
-2025-05-23 17:01:23 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
-2025-05-23 17:01:23 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 500 milliseconds
-2025-05-23 17:01:23 [Twitter Stream consumer /  [1][Waiting for 500 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
-2025-05-23 17:01:24 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
-2025-05-23 17:01:24 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 1000 milliseconds
-2025-05-23 17:01:25 [Twitter Stream consumer /  [1][Waiting for 1000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
-2025-05-23 17:01:25 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
-2025-05-23 17:01:25 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 2000 milliseconds
-2025-05-23 17:01:27 [Twitter Stream consumer /  [1][Waiting for 2000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
-2025-05-23 17:01:27 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
-2025-05-23 17:01:27 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 4000 milliseconds
-2025-05-23 17:01:28 [SpringApplicationShutdownHook] INFO  s.s.t.r.i.TwitterKafkaStreamRunner - Closing twitter stream!
-2025-05-23 17:04:08 [main] INFO  s.s.t.TwitterKafkaServiceApplication - Starting TwitterKafkaServiceApplication using Java 17.0.14 with PID 26832 (C:\Users\selim\ws\spring-boot\twitter-micro\twitter-kafka-service\target\classes started by selim in C:\Users\selim\ws\spring-boot\twitter-micro)
-2025-05-23 17:04:08 [main] INFO  s.s.t.TwitterKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
-2025-05-23 17:04:09 [main] INFO  s.s.t.TwitterKafkaServiceApplication - Started TwitterKafkaServiceApplication in 0.594 seconds (process running for 1.061)
-2025-05-23 17:04:09 [main] INFO  s.s.t.TwitterKafkaServiceApplication - Twitter Kafka Service is starting...
-2025-05-23 17:04:09 [main] INFO  s.s.t.TwitterKafkaServiceApplication - [Java, Microservices, Kafka, Spring, Elasticsearch]
-2025-05-23 17:04:09 [main] INFO  s.s.t.TwitterKafkaServiceApplication - Welcome to the Twitter Kafka Service!
-2025-05-23 17:04:09 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
-2025-05-23 17:04:09 [main] INFO  s.s.t.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Microservices, Kafka, Spring, Elasticsearch]
-2025-05-23 17:04:09 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
-2025-05-23 17:04:09 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 250 milliseconds
-2025-05-23 17:04:09 [Twitter Stream consumer /  [1][Waiting for 250 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
-2025-05-23 17:04:10 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
-2025-05-23 17:04:10 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 500 milliseconds
-2025-05-23 17:04:10 [Twitter Stream consumer /  [1][Waiting for 500 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
-2025-05-23 17:04:10 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
-2025-05-23 17:04:10 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 1000 milliseconds
-2025-05-23 17:04:11 [SpringApplicationShutdownHook] INFO  s.s.t.r.i.TwitterKafkaStreamRunner - Closing twitter stream!
-2025-05-23 17:05:34 [main] INFO  s.s.t.TwitterKafkaServiceApplication - Starting TwitterKafkaServiceApplication using Java 17.0.14 with PID 33652 (C:\Users\selim\ws\spring-boot\twitter-micro\twitter-kafka-service\target\classes started by selim in C:\Users\selim\ws\spring-boot\twitter-micro)
-2025-05-23 17:05:34 [main] INFO  s.s.t.TwitterKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
-2025-05-23 17:05:34 [main] INFO  s.s.t.TwitterKafkaServiceApplication - Started TwitterKafkaServiceApplication in 0.603 seconds (process running for 1.061)
-2025-05-23 17:05:34 [main] INFO  s.s.t.TwitterKafkaServiceApplication - Twitter Kafka Service is starting...
-2025-05-23 17:05:34 [main] INFO  s.s.t.TwitterKafkaServiceApplication - [Java, Microservices, Kafka, Spring, Elasticsearch]
-2025-05-23 17:05:34 [main] INFO  s.s.t.TwitterKafkaServiceApplication - Welcome to the Twitter Kafka Service!
-2025-05-23 17:05:34 [main] INFO  s.s.t.r.impl.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Kafka, Spring, Elasticsearch]
-2025-05-23 17:05:34 [pool-2-thread-1] INFO  s.s.t.l.TwitterKafkaStatusListener - Twitter status with text sed amet congue magna Elasticsearch ultricies purus ultricies
-2025-05-23 17:05:44 [pool-2-thread-1] INFO  s.s.t.l.TwitterKafkaStatusListener - Twitter status with text Lorem ipsum libero Lorem adipiscing massa ultricies Elasticsearch elit Fusce amet lectus Lorem
+2025-05-26 22:41:56 [main] INFO  s.s.t.TwitterKafkaServiceApplication - Starting TwitterKafkaServiceApplication using Java 17.0.14 with PID 42192 (C:\Users\selim\ws\spring-boot\twitter-micro\twitter-kafka-service\target\classes started by selim in C:\Users\selim\ws\spring-boot\twitter-micro)
+2025-05-26 22:41:56 [main] INFO  s.s.t.TwitterKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-26 22:41:57 [main] INFO  s.s.t.TwitterKafkaServiceApplication - Started TwitterKafkaServiceApplication in 0.792 seconds (process running for 1.395)
+2025-05-26 22:41:57 [main] INFO  s.s.t.TwitterKafkaServiceApplication - Twitter Kafka Service is starting...
+2025-05-26 22:41:57 [main] INFO  s.s.t.TwitterKafkaServiceApplication - [Java, Microservices, Kafka, Spring, Elasticsearch]
+2025-05-26 22:41:57 [main] INFO  s.s.t.TwitterKafkaServiceApplication - Welcome to the Twitter Kafka Service!
+2025-05-26 22:41:57 [main] INFO  s.s.t.r.impl.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Kafka, Spring, Elasticsearch]
+2025-05-26 22:41:57 [pool-2-thread-1] INFO  s.s.t.l.TwitterKafkaStatusListener - Twitter status with text magna Fusce Lorem Fusce consectetuer Maecenas dolor elit Kafka magna porttitor lectus massa ipsum porttitor
+2025-05-26 22:42:07 [pool-2-thread-1] INFO  s.s.t.l.TwitterKafkaStatusListener - Twitter status with text magna posuere libero consectetuer ultricies Kafka ultricies magna dolor lectus
+2025-05-26 22:42:17 [pool-2-thread-1] INFO  s.s.t.l.TwitterKafkaStatusListener - Twitter status with text massa Fusce magna libero Java congue ultricies libero
+2025-05-26 22:42:27 [pool-2-thread-1] INFO  s.s.t.l.TwitterKafkaStatusListener - Twitter status with text purus Lorem sit Spring ipsum Maecenas
