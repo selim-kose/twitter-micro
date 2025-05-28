@@ -7,10 +7,9 @@
         <groupId>se.selimkose</groupId>
         <artifactId>twitter-micro</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <artifactId>kafka-admin</artifactId>
+    <artifactId>common-config</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -28,12 +27,8 @@
             <artifactId>spring-kafka</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework.retry</groupId>
-            <artifactId>spring-retry</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-aop</artifactId>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
 
