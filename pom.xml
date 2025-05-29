@@ -41,6 +41,11 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-webflux</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>se.selimkose</groupId>
                 <artifactId>app-config-data</artifactId>
                 <version>${project.version}</version>
