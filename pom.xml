@@ -36,7 +36,15 @@
         <avro.version>1.11.4</avro.version>
         <kafka.version>2.6.2</kafka.version>
         <spring-retry.version>2.0.8</spring-retry.version>
+        <kafka-avro-serializer.version>7.8.0</kafka-avro-serializer.version>
     </properties>
+
+    <repositories>
+        <repository>
+            <id>confluent</id>
+            <url>https://packages.confluent.io/maven/</url>
+        </repository>
+    </repositories>
 
     <dependencyManagement>
         <dependencies>
@@ -48,6 +56,11 @@
             <dependency>
                 <groupId>se.selimkose</groupId>
                 <artifactId>app-config-data</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>se.selimkose</groupId>
+                <artifactId>kafka-model</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -75,6 +88,33 @@
                 <groupId>org.apache.avro</groupId>
                 <artifactId>avro</artifactId>
                 <version>${avro.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.confluent</groupId>
+                <artifactId>kafka-avro-serializer</artifactId>
+                <version>${kafka-avro-serializer.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>io.swagger</groupId>
+                        <artifactId>swagger-core</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>io.swagger</groupId>
+                        <artifactId>swagger-annotations</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.slf4j</groupId>
+                        <artifactId>slf4j-api</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.slf4j</groupId>
+                        <artifactId>slf4j-log4j12</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>log4j</groupId>
+                        <artifactId>log4j</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.springframework.kafka</groupId>
@@ -120,6 +160,6 @@
         </plugins>
     </pluginManagement>
 
-</build>
+    </build>
 
-        </project>
+</project>
